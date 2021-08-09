@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap');
 * {
-	margin: 1rem 0rem;
+	margin: 1rem 1rem;
 	padding: 0;
 	font-family: 'Fira Code', monospace;
 	background: black;
@@ -14,9 +14,9 @@
 
 form {
 	color: rgba(255, 255, 255, 0.75);
-	margin-top: 2rem;
+	margin-top: 1.5rem;
 	text-align: center;
-	line-height: 3rem;
+	line-height: 2rem;
 	font-size: 1.5rem;
 }
 
@@ -29,4 +29,15 @@ textarea {
 	padding: 1rem;
 	border: 2px solid rgba(255, 255, 255, 0.5);
 	border-radius: 10px;
+}
+
+p {
+	text-align: center;
+	color: #fff;
+}
+
+.version {
+	text-align: right;
+	color: #fff;
+	font-size: 0.75rem;
 }
